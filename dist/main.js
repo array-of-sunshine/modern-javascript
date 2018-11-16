@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(math.sqrt(-4));\nconsole.log('i\\'m in index.js');\n\nconsole.log(moment(\"20241031\", \"YYYYMMDD\").fromNow());\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(math.sqrt(-4));\nconsole.log('i\\'m in index.js');\nconsole.log(moment(\"20241031\", \"YYYYMMDD\").fromNow());\nvar nums = [1, 23, 4123, 4, 123, 54, 55, 55];\nvar fives = [];\nnums.forEach(function (v) {\n  // nums.forEach(v => {\n  if (v % 5 === 0) fives.push(v);\n});\nconsole.log(fives);\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
